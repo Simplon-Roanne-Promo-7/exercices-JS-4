@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
+
+.modal {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+}
+
+.modal button {
+    margin: 5px;
+    text-align: center;
+}
+
+.modal-button {
+    margin: 5px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 2px solid black;
+    filter: blur(2px);
+}
+
+.box:hover {
+    filter: blur(0px);
+    border: 2px solid red;
+}
+
+.extend-witdh {
+    width: 400px;
+}
